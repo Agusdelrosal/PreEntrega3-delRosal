@@ -1,0 +1,34 @@
+header { 
+    nav { 
+       background-color: #ffd4d0;
+       width: 100%;
+       div { 
+           .logo { 
+               width: 230px ;
+               margin-top: 5px ;
+           }
+
+           #navbarNav { 
+               font-style: italic;
+               font-family: $fuente;
+               font-size: $veinte;
+               margin: 10px;
+               color: $blanco;
+               text-decoration: none;
+               justify-content: right;
+    
+               
+               ul { 
+                    li:hover { 
+                       transform: scale(1.1);
+                       transition: all 0.5s;
+                       background: rgb(224, 247, 255);
+                       
+                   }
+
+               }
+           } 
+       }
+   }
+}
+

@@ -1,0 +1,110 @@
+header nav {
+  background-color: #ffd4d0;
+  width: 100%; }
+  header nav div .logo {
+    width: 230px;
+    margin-top: 5px; }
+  header nav div #navbarNav {
+    font-style: italic;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: right; }
+    header nav div #navbarNav ul li:hover {
+      transform: scale(1.1);
+      transition: all 0.5s;
+      background: #e0f7ff; }
+
+footer {
+  font-style: italic;
+  font-family: "Abel", sans-serif;
+  color: white;
+  background: linear-gradient(90deg, white 0%, #fecfcf 60%, #cff8fe 100%);
+  width: 100%; }
+
+form {
+  background-color: #fff2f2;
+  width: 100%;
+  font-family: "Abel", sans-serif;
+  font-size: 20px; }
+  form div .form-label {
+    color: #2e2e6a;
+    padding-left: 20px; }
+  form div #boton {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    background-color: #b9e8f7;
+    margin-bottom: 30px;
+    border-radius: 10px; }
+
+body {
+  background-image: url(../media/image/index/fondo.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden; }
+
+html {
+  overflow-x: hidden; }
+
+section {
+  position: relative; }
+  section foto-principal {
+    width: 100%;
+    justify-content: center; }
+  section div {
+    position: absolute;
+    top: 40%;
+    left: 44%; }
+    section div h1 {
+      color: white; }
+    section div p {
+      color: white; }
+
+#foto-principal {
+  width: 100%;
+  justify-content: center; }
+
+.contenedor2 #recuadro {
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  color: gray;
+  justify-content: center;
+  align-items: center; }
+
+#galeria {
+  margin-top: 30px; }
+  #galeria #fotos-secundarias {
+    width: 100%;
+    padding: 24px;
+    transition: all 0.5s; }
+    #galeria #fotos-secundarias div #fotos-index:hover {
+      transform: scale(1.3);
+      transition: all 0.5s;
+      box-shadow: 5px 5px 5px gray; }
+    #galeria #fotos-secundarias div span {
+      font-style: italic;
+      font-family: "Abel", sans-serif; }
+
+.contenedor {
+  padding-top: 30px; }
+  .contenedor #titulos {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    animation: bounceInLeft;
+    animation-duration: 3s;
+    justify-content: center;
+    align-items: center; }
+
+div #nosotros {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  color: #2e2e6a; }
