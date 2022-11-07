@@ -9,6 +9,8 @@
         animation-duration: 3s;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
 
@@ -17,5 +19,14 @@ div {
         font-family: $fuente;
         font-size: $veinte;
         color: rgb(46, 46, 106);
+        margin-top: auto ;
     }
+}
+
+#carouselExampleCaptions { 
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
 }

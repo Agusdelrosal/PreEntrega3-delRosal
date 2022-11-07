@@ -1,21 +1,39 @@
-form { 
-    background-color:#fff2f2;
-    width:100%;
-    font-family: $fuente;
-    font-size: $veinte;
+div { 
     div { 
-        .form-label { 
-            color: rgb(46, 46, 106);
-            padding-left: $veinte;
-        }
-        #boton { 
-            font-family: $fuente;
-            font-size: $veinte;
-            color: $blanco;
-            width: 40%;
-            background-color: rgb(185, 232, 247);
-            margin-bottom: 30px;
-            border-radius: 10px;
+        div { 
+            form { 
+                height: 480px;
+                padding: 1rem;
+                background-color:#fff2f2;
+                width:100%;
+                font-family: $fuente;
+                font-size: $veinte;
+                margin-bottom: 20px;
+                div { 
+                    .form-label { 
+                        color: rgb(46, 46, 106);
+                        padding-left: $veinte;
+                    }
+                    #boton { 
+                        font-family: $fuente;
+                        font-size: $veinte;
+                        color: $blanco;
+                        width: 30%;
+                        background-color: rgb(185, 232, 247);
+                        margin-bottom: 30px;
+                        border-radius: 10px;
+                        outline: none;
+                    }
+                }
+            }
+            div { 
+                
+                iframe {
+                    display: block;                        
+                }
+            }
+            
         }
     }
 }
+

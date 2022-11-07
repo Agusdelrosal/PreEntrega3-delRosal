@@ -1,0 +1,33 @@
+.card { 
+   margin: 20px;
+   box-shadow: 10px;
+   border-radius: 30px;
+   background: linear-gradient(155deg, rgba(224,247,255,1) 50%, rgba(255,255,255,1) 100%);
+   margin-bottom: 20px;
+
+   .card-img-top { 
+      border-radius: 30px;
+   }
+   .card-body {
+      .card-title { 
+         font-size: 25px; 
+         font-family: 'Beth Ellen', cursive;
+         font-weight: 200;
+         color: rgb(46, 46, 106);   
+                
+      }
+      .card-text { 
+         font-size: 17px; 
+         font-family: $fuente;
+         color: rgb(46, 46, 106); 
+                
+      }
+        
+      .btn { 
+         background-color: rgb(46, 46, 106);
+         color: white ;
+         font-family: $fuente;
+         
+      } 
+   }
+}

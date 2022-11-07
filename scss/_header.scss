@@ -1,11 +1,12 @@
 header { 
-    nav { 
+    nav { background-color: #ffd4d0;
        div { 
            .logo { 
                width: 230px ;
                margin-top: 5px ;
+               margin-left: 14px;
            }
-
+           
            #navbarNav { 
                font-style: italic;
                font-family: $fuente;
@@ -17,6 +18,13 @@ header {
     
                
                ul { 
+                    li { 
+                        .nav-link { 
+                            color: rgb(61, 61, 128);
+                            font-size: 15px;
+                        }
+                        
+                    }
                     li:hover { 
                        transform: scale(1.1);
                        transition: all 0.5s;
